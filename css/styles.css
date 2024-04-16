@@ -1,0 +1,65 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+.container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.furniture-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.furniture-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.furniture-item h3 {
+    margin-top: 10px;
+}
+
+.furniture-item p {
+    margin-bottom: 10px;
+}
+.price {
+    font-weight: bold;
+    color: #007bff;
+}
+.order-button,
+.cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.order-button:hover,
+.cart-button:hover {
+    background-color: #0056b3;
+}
+.furniture-item a{
+    text-decoration: none;
+    color: white;
+}
+
